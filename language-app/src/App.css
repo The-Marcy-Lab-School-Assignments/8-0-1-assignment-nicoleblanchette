@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackside+One&display=swap');
+
+body {
+  background-image: linear-gradient(rgb(61, 16, 16), rgb(30, 4, 4));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1 {
+  color: #d5a579;
+  font-family: "Slackside One", cursive;
+  text-shadow: black 0 0 20px;
+  transition-duration: 200ms;
+}
+
+h1:hover {
+  text-shadow: #d5a579 0 0 20px;
+  transform: scale(1.2);
+
+}
+
+button {
+  background-color: #d5a579;
+  margin: 5px;
+  font-family: monospace;
+}
+
+button:hover {
+  color: #d5a579;
+  background-color: rgb(61, 16, 16);
+  transition-duration: 200ms;
+}
+
+p {
+  font-family: monospace;
+  color: #d5a579;
+  font-size: 2rem;
+  max-width: 30%;
+  text-align: center;
+  transition-duration: 2000ms;
+}
+
+p:hover{
+  transform: rotate(360deg) scale(2) translateY(100px);
+}

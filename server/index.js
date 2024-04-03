@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 
-const pathToDistFolder = path.join(__dirname, '..', 'vite-project', 'dist')
+const pathToDistFolder = path.join(__dirname, '..', 'language-app', 'dist')
 
 const app = express()
 
